@@ -337,7 +337,7 @@ class Favorites:
 
         :return: A :class:`list` of :class:`~tidalapi.media.Track` objects containing all of the favorite tracks.
         """
-        params = {"limit": limit, "offset": offset}
+        params = {"limit": 9999, "offset": offset}
         return cast(
             List["Track"],
             self.requests.map_request(
