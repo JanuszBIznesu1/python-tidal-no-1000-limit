@@ -18,7 +18,7 @@ The 0.7.x rewrite is now complete, see the `migration guide <https://tidalapi.ne
 Installation
 ------------
 
-"python -m pip install git+https://github.com/Maverick565/python-tidal-no-1000-limit.git"
+python -m pip install git+https://github.com/Maverick565/python-tidal-no-1000-limit.git
 
 
 
